@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_Alamofire, ______Target_LoginViewController);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_,  Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        _______Group_Alamofire = {
+            isa = PBXGroup;
+            name = 'Alamofire';
+            path = 'Packages/Alamofire-4.4.0/Source';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/Alamofire-4.4.0/Source/AFError.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Alamofire.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/DispatchQueue+Alamofire.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/MultipartFormData.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/NetworkReachabilityManager.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Notifications.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ParameterEncoding.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Request.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Response.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ResponseSerialization.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Result.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ServerTrustPolicy.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionDelegate.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionManager.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/TaskDelegate.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Timeline.swift', '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Validation.swift');
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/AFError.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'AFError.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Alamofire.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Alamofire.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/DispatchQueue+Alamofire.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'DispatchQueue+Alamofire.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/MultipartFormData.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'MultipartFormData.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/NetworkReachabilityManager.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'NetworkReachabilityManager.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Notifications.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Notifications.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ParameterEncoding.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ParameterEncoding.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Request.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Request.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Response.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Response.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ResponseSerialization.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ResponseSerialization.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Result.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Result.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ServerTrustPolicy.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ServerTrustPolicy.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionDelegate.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SessionDelegate.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionManager.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SessionManager.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/TaskDelegate.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TaskDelegate.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Timeline.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Timeline.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Validation.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Validation.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Alamofire = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Alamofire;
+            buildPhases = (CompilePhase_Alamofire, ___LinkPhase_Alamofire);
+            buildRules = ();
+            dependencies = ();
+            name = 'Alamofire';
+            productName = Alamofire;
+            productReference = _____Product_Alamofire;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Alamofire = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Alamofire.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Alamofire = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/Alamofire-4.4.0/Source/AFError.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Alamofire.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/DispatchQueue+Alamofire.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/MultipartFormData.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/NetworkReachabilityManager.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Notifications.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ParameterEncoding.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Request.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Response.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ResponseSerialization.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Result.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ServerTrustPolicy.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/SessionDelegate.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/SessionManager.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/TaskDelegate.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Timeline.swift', '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Validation.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/AFError.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/AFError.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Alamofire.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Alamofire.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/DispatchQueue+Alamofire.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/DispatchQueue+Alamofire.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/MultipartFormData.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/MultipartFormData.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/NetworkReachabilityManager.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/NetworkReachabilityManager.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Notifications.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Notifications.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ParameterEncoding.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ParameterEncoding.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Request.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Request.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Response.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Response.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ResponseSerialization.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ResponseSerialization.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Result.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Result.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/ServerTrustPolicy.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/ServerTrustPolicy.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/SessionDelegate.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionDelegate.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/SessionManager.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/SessionManager.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/TaskDelegate.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/TaskDelegate.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Timeline.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Timeline.swift';
+        };
+        '__src_cc_ref_Packages/Alamofire-4.4.0/Source/Validation.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Alamofire-4.4.0/Source/Validation.swift';
+        };
+        ___LinkPhase_Alamofire = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_Alamofire = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Alamofire, _ReleaseConf_Alamofire);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Alamofire = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'LoginViewController.xcodeproj/Alamofire_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'Alamofire'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Alamofire = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'LoginViewController.xcodeproj/Alamofire_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'Alamofire'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_Alamofire = {
+            isa = PBXTargetDependency;
+            target = ______Target_Alamofire;
+        };
+        _______Group_LoginViewController = {
+            isa = PBXGroup;
+            name = 'LoginViewController';
+            path = 'LoginViewController';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_LoginViewController/LoginViewController.swift', '__PBXFileRef_LoginViewController/ServerHandler.swift');
+        };
+        '__PBXFileRef_LoginViewController/LoginViewController.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'LoginViewController.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_LoginViewController/ServerHandler.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ServerHandler.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_LoginViewController = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_LoginViewController;
+            buildPhases = (CompilePhase_LoginViewController, ___LinkPhase_LoginViewController);
+            buildRules = ();
+            dependencies = (__Dependency_Alamofire);
+            name = 'LoginViewController';
+            productName = LoginViewController;
+            productReference = _____Product_LoginViewController;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_LoginViewController = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'LoginViewController.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_LoginViewController = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_LoginViewController/LoginViewController.swift', '__src_cc_ref_LoginViewController/ServerHandler.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_LoginViewController/LoginViewController.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_LoginViewController/LoginViewController.swift';
+        };
+        '__src_cc_ref_LoginViewController/ServerHandler.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_LoginViewController/ServerHandler.swift';
+        };
+        ___LinkPhase_LoginViewController = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Alamofire_via_LoginViewController);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Alamofire_via_LoginViewController = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Alamofire;
+        };
+        _______Confs_LoginViewController = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_LoginViewController, _ReleaseConf_LoginViewController);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_LoginViewController = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'LoginViewController.xcodeproj/LoginViewController_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'LoginViewController'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_LoginViewController = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'LoginViewController.xcodeproj/LoginViewController_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'LoginViewController'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_LoginViewController = {
+            isa = PBXTargetDependency;
+            target = ______Target_LoginViewController;
+        };
+        '__PBXFileRef_LoginViewController.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            path = 'LoginViewController.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_LoginViewController.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_Alamofire, _______Group_LoginViewController);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        Dependencies_ = {
+            isa = PBXGroup;
+            children = (_______Group_Alamofire);
+            name = Dependencies;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (_____Product_Alamofire, _____Product_LoginViewController);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_LoginViewController.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_LoginViewController.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
+}
