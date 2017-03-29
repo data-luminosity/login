@@ -1,9 +1,9 @@
-//
-//  ServerHandler.swift
-//  SensorRetrieval
-//
-//  Created by josh on 3/10/16.
-//
+/*
+ * Copyright (c) 2016-2017,  University of California, Los Angeles
+ * Coded by Josh Joy
+ * All rights reserved.
+ *
+ */
 
 import Foundation
 
